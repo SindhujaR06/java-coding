@@ -1,0 +1,1 @@
+ WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));

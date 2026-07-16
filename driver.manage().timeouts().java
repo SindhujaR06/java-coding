@@ -1,0 +1,1 @@
+driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

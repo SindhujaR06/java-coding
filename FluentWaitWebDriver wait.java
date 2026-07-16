@@ -1,0 +1,2 @@
+ FluentWait<WebDriver> wait = new FluentWait<>(driver)
+                .withTimeout(Duration.ofSeconds(30))                          .pollingEvery(Duration.ofSeconds(5)).ignoring(NoSuchElementException.class);
